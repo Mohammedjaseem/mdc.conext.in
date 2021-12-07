@@ -1,0 +1,17 @@
+<html>  
+   <head>  
+      <title>Sample Code</title>  
+      <script type="text/javascript">  
+         function OpenNewWindow(MyPath)  
+         {  
+            window.open(MyPath,"","toolbar=no,status=no,menubar=no,location=center,scrollbars=no,resizable=no,height=500,width=657");  
+         }  
+      </script>  
+   </head>  
+   <body bgcolor=#00ff00 alink=blue vlink=blue>  
+      <FORM name="windowEvent">  
+         Enter Path Of File Or Window Which You Want To Open : <input type="text" name="txtpath"/>  
+         <input type="button" value="Open" name="btnOpenPopup" onClick="OpenNewWindow(txtpath.value)" />  
+      </FORM>  
+   </body>  
+</html> 
