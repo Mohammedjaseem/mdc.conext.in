@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
 </head>
 <style>
     #blink {
@@ -16,82 +20,6 @@
         transition: 0.5s;
     }
 
-    /* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: #ffffff;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 70%;
-}
-
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-.dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown a:hover {background-color: #ddd;}
-
-.show {display: block;}
 </style>
 </style>
 <body>
@@ -166,62 +94,74 @@
         </div>
         <div class="row tm-mb-90 tm-gallery">
         	<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="img/img-03.jpg" alt="Image" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2><button class="btn btn-primary" id="myBtn">Choose Area</button></h2>
-
-                    </figcaption>                    
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">Oral Medicine & Radiology</span>
-                    <span></span>
-                </div>
+            <figure class="effect-ming tm-video-item">
+                <img src="img/img-03.jpg" alt="Image" class="img-fluid">
+                <figcaption class="d-flex align-items-center justify-content-center">
+                  <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Oral">
+                    Register
+                  </button></h2>
+                       
+                  
+                    
+                </figcaption>                    
+            </figure>
+            <div class="d-flex justify-content-between tm-text-gray">
+                <span class="tm-text-gray-light">Oral Medicine and Radiology</span>
+                <span></span>
             </div>
-
-            <!-- The Modal -->
-<div id="myModal" class="modal">
-
-    <!-- Modal content -->
+        </div>
+        <!-- Modal -->
+<div class="modal fade" id="Oral" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Hello..!</h2><h5>	• Please Choose area of Complaint..</h5>
-      <button class="btn btn-primary">Network or System</button>
-      <br>
-      <button class="btn btn-primary">Maintenance</button>
-      <br>
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Oral Medicine and Radiology</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+      </div>
     </div>
-  
+  </div>
 </div>
-      <!--
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </div>
-      <br>
-      <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </div>
-      -->
-    
+
+
 
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-04.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Oralm">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+                <!-- Modal -->
+<div class="modal fade" id="Oralm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Oral & Maxillofacial Surgery</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Oral & Maxillofacial Surgery</span>
                     <span></span>
@@ -231,10 +171,32 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-05.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Pros">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+                <!-- Modal -->
+<div class="modal fade" id="Pros" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Prosthodontist</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Prosthodontist</span>
                     <span></span>
@@ -244,10 +206,31 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-06.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#"></a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Phd">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+                <!-- Modal -->
+<div class="modal fade" id="Phd" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Public Health Dentistry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Public Health Dentistry</span>
                     <span></span>
@@ -258,10 +241,30 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-01.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">Conservative & Endodontics</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#conserve">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+          <div class="modal fade" id="conserve" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Conservative & Endodontics</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+                      <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Conservative & Endodontics</span>
                     <span></span>
@@ -271,10 +274,30 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-02.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ortho">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+                <div class="modal fade" id="ortho" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Orthodontics</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Orthodontics</span>
                     <span></span>
@@ -284,10 +307,31 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-07.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Pedo">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+
+                <div class="modal fade" id="Pedo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Paedodontics</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Paedodontics</span>
                     <span></span>
@@ -297,10 +341,31 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-08.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Perio">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+
+                <div class="modal fade" id="Perio" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Periodontics</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Periodontics</span>
                     <span></span>
@@ -310,10 +375,30 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-09.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basic">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+                <div class="modal fade" id="basic" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Basic Science</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Basic Science</span>
                     <span></span>
@@ -323,10 +408,31 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-10.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hostel">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+                <div class="modal fade" id="hostel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Hostel</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Hostel</span>
                     <span></span>
@@ -336,10 +442,31 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-11.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#admin">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+
+                <div class="modal fade" id="admin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Administration</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Administration</span>
                     <span></span>
@@ -349,10 +476,32 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-12.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#princi">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+
+                <div class="modal fade" id="princi" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Principal Office</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Principal Office</span>
                     <span></span>
@@ -364,10 +513,31 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-13.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projects">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+
+                <div class="modal fade" id="projects" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Projects</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="d-flex justify-content-between tm-text-gray">
                     <span class="tm-text-gray-light">Projects</span>
                     <span></span>
@@ -378,12 +548,31 @@
                 <figure class="effect-ming tm-video-item">
                     <img src="img/img-14.jpg" alt="Image" class="img-fluid">
                     <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>Register</h2>
-                        <a href="#">View more</a>
+                      <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#store">
+                        Register
+                      </button></h2>
                     </figcaption>                    
                 </figure>
+                <div class="modal fade" id="store" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Store</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Systems & Networks( IT )</button></a>
+                        <a href="https://mdc.gov.in/complaint/register/oral-medicine-and-radiology" target="_blank">
+        <button class="btn btn-secondary">Maintenance</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">Projects</span>
+                    <span class="tm-text-gray-light">Store</span>
                     <span></span>
                 </div>
             </div>
@@ -445,7 +634,7 @@
                     Copyright 2020 . All rights reserved.<br> <b> <a href="https://mdcrc.edu.in">Malabar Dental College and Research Center</a></b>
                 </div>
                 <div class="col-lg-4 col-md-5 col-12 px-5 text-right">Designed by<br>
-                    <a href="https://Jaseem.tech"  rel="sponsored" target="_parent">  <b> Mohammed Jaseem </b></a>
+                    <a href="https://Jaseem.tech"  rel="sponsored" target="_parent">  <b> IT Engineer </b></a>
                 </div>
             </div>
         </div>
@@ -458,52 +647,57 @@
         });
     </script>
     <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-        
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-        
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-        
-        // When the user clicks the button, open the modal 
-        btn.onclick = function() {
-          modal.style.display = "block";
+    // Inline popups
+    $('#inline-popups').magnificPopup({
+      delegate: 'a',
+      removalDelay: 500, //delay removal by X to allow out-animation
+      callbacks: {
+        beforeOpen: function() {
+           this.st.mainClass = this.st.el.attr('data-effect');
         }
-        
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-          modal.style.display = "none";
+      },
+      midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+    });
+    
+    
+    // Image popups
+    $('#image-popups').magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      removalDelay: 500, //delay removal by X to allow out-animation
+      callbacks: {
+        beforeOpen: function() {
+          // just a hack that adds mfp-anim class to markup 
+           this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+           this.st.mainClass = this.st.el.attr('data-effect');
         }
-        
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
+      },
+      closeOnContentClick: true,
+      midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+    });
+    
+    
+    // Hinge effect popup
+    $('a.hinge').magnificPopup({
+      mainClass: 'mfp-with-fade',
+      removalDelay: 1000, //delay removal by X to allow out-animation
+      callbacks: {
+        beforeClose: function() {
+            this.content.addClass('hinge');
+        }, 
+        close: function() {
+            this.content.removeClass('hinge'); 
         }
-        </script>
-        <script>
-            /* When the user clicks on the button, 
-            toggle between hiding and showing the dropdown content */
-            function myFunction() {
-              document.getElementById("myDropdown").classList.toggle("show");
-            }
-            
-            // Close the dropdown if the user clicks outside of it
-            window.onclick = function(event) {
-              if (!event.target.matches('.dropbtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                  var openDropdown = dropdowns[i];
-                  if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                  }
-                }
-              }
-            }
-            </script>
+      },
+      midClick: true
+    });
+</script>
+<script>
+    $('#btn').click(function() {
+                   $('#modelWindow').modal('show');
+                });
+</script>
+    
+
 </body>
 </html>
