@@ -197,7 +197,7 @@ a:hover { color:#009999; }
 .tm-mt-60 { margin-top: 60px; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-74 { margin-bottom: 74px; }
-.tm-mb-90 { margin-bottom: 90px; }
+.tm-mb-90 { margin-bottom: 25px; }
 .tm-text-primary { color: #009999; }
 .tm-text-secondary { color: #CC6699; }
 a.tm-text-primary:hover { color:#666666; }
