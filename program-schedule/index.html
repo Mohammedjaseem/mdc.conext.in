@@ -18,6 +18,26 @@
     <!-- Custom Stylesheet -->
     <link type="text/css" rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        .container1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+    </style>
+
 </head>
 <body id="top">
 <div class="page_loader"></div>
@@ -41,8 +61,11 @@
                             </a>
                         </div><br><br>
                         <h1>Welcome!</h1><br>
-                        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQx-0XW-k3IiEq_vyUeVziHKWPhhKSamDav9CJUtVEAiyYPpiJD-F1Gjpix2FktwGOk5KKCMdEIHcQZ/pubhtml" width="100%" height="300" frameborder="3px" marginheight="0" marginwidth="0"></iframe>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScspAl0WPrXkzhjmRm2zHRMKZzk3KZpgQHYwmKXATx8Kz4wJA/viewform?embedded=true" width="100%" height="1800" frameborder="3px" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <div class="container1"> 
+                        <iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQx-0XW-k3IiEq_vyUeVziHKWPhhKSamDav9CJUtVEAiyYPpiJD-F1Gjpix2FktwGOk5KKCMdEIHcQZ/pubhtml" ></iframe>
+                        </div>
+                        <br><br><br><center><b><h4>Registrations can be done only by using offical macity mail.</h4></b></center><br>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScspAl0WPrXkzhjmRm2zHRMKZzk3KZpgQHYwmKXATx8Kz4wJA/viewform?embedded=true" width="100%" height="1550" frameborder="3px" marginheight="0" marginwidth="0">Loading…</iframe>
 
                                                  </form><br><br><br><br>
                         Help & Support<br>
