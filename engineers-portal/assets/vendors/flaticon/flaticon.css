@@ -1,0 +1,62 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 13/02/2021 13:46
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff2") format("woff2"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.flaticon-coffee-cup:before { content: "\f100"; }
+.flaticon-heart:before { content: "\f101"; }
+.flaticon-check:before { content: "\f102"; }
+.flaticon-plus:before { content: "\f103"; }
+.flaticon-left-quote:before { content: "\f104"; }
+.flaticon-social-growth:before { content: "\f105"; }
+.flaticon-megaphone:before { content: "\f106"; }
+.flaticon-bar-chart:before { content: "\f107"; }
+.flaticon-file-sharing:before { content: "\f108"; }
+.flaticon-website-content:before { content: "\f109"; }
+.flaticon-social-media:before { content: "\f10a"; }
+.flaticon-file-sharing-1:before { content: "\f10b"; }
+.flaticon-channel:before { content: "\f10c"; }
+.flaticon-rocket:before { content: "\f10d"; }
+.flaticon-target:before { content: "\f10e"; }
+.flaticon-strategic-plan:before { content: "\f10f"; }
+.flaticon-article:before { content: "\f110"; }
+.flaticon-bullhorn:before { content: "\f111"; }
+.flaticon-phone-call:before { content: "\f112"; }
+.flaticon-email:before { content: "\f113"; }
+.flaticon-placeholder:before { content: "\f114"; }
+.flaticon-web-browser:before { content: "\f115"; }
+.flaticon-web-design:before { content: "\f116"; }
+.flaticon-analytics:before { content: "\f117"; }
+.flaticon-link:before { content: "\f118"; }
+.flaticon-link-building:before { content: "\f119"; }
+.flaticon-user:before { content: "\f11a"; }
+.flaticon-loupe:before { content: "\f11b"; }
+.flaticon-idea:before { content: "\f11c"; }
+.flaticon-server:before { content: "\f11d"; }
+.flaticon-database:before { content: "\f11e"; }
+.flaticon-database-1:before { content: "\f11f"; }

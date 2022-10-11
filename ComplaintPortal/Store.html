@@ -1,0 +1,2014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDC Complaints Portal</title>
+    <meta name="description" content="MDC Complaints Portal from IT Department">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+
+</head>
+<style>
+  
+  #blink {
+      font-size: 20px;
+      font-weight: bold;
+      color: #2d38be;
+      transition: 0.5s;
+  }
+  .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.centerpop{
+  padding-top: 20%;
+}
+.Depradius {
+  border-radius: 50px 20px;
+}
+
+</style>
+
+
+
+<body style="background-color: #000;">
+
+    
+    <!-- Page Loader 
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    -->
+
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: blanchedalmond;">
+              <!--  <i class="fas fa-film mr-2"></i> -->
+               <b> MDC Portal for Purchase</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            </button>
+            <!--
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-1 active" aria-current="page" href="index.html">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-2" href="videos.html">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-3" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-4" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            </div>
+            --> 
+        </div>
+    </nav>
+
+    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="https://thumbs.dreamstime.com/b/sale-banner-mock-up-design-shopping-cart-white-background-top-view-above-171895370.jpg">
+    </div>
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-3">
+          <!--
+            <center>
+            <h3 class="col-6 tm-text-primary">
+                 We are here to help you! 
+            </h3></center> -->
+            <marquee      height: 80px; direction="left" height="100px"><b>
+                <p id="blink" style="color: aliceblue; font-size: medium;">  <i class="fas fa-bullhorn"></i> Please use official macity  mail id for the registration process</b></p>
+                </marquee>
+                <script type="text/javascript">
+                    var blink = document.getElementById('blink');
+                    setInterval(function() {
+                        blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+                    }, 750);
+                </script>
+                <!--
+            <div class="col-6 d-flex justify-content-end align-items-center">
+                <form action="" class="tm-text-primary">
+                    Page <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> of 4
+                </form>
+            </div>
+            -->
+        </div>
+        <div class="row tm-mb-90 tm-gallery">
+        	
+
+
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+              <figure class="effect-ming tm-video-item Depradius">
+                  <img src="img/img-03.jpg" alt="Image" class="img-fluid Depradius">
+                  <figcaption class="d-flex align-items-center justify-content-center">
+                    <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#can">
+                      Register
+                    </button></h2>
+                  </figcaption>                    
+              </figure>
+              <div class="modal fade" id="can" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Oral Medicine and Radiology</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      
+
+      
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#canpur">
+  Purchase and Intenting 
+</button>
+                    </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="canpur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+  <a href="https://docs.google.com/spreadsheets/d/1Eq0Cj8tWCpZO8d6GWgPWwaEm1VJS2-yIQrLJKFyrjS4/edit?usp=sharing"  target="_blank">
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  For Dental Purchase Listing 
+</button></a><br><br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#canoth">
+  For Stationery Purchase Listing
+  </button>
+  <!-- Modal -->
+<div class="modal fade" id="canoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScE4fKAVhSz3z7jc4d1eEjbvbyRl4yOVrBOBB8cjbLu3ScxtA/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+  <div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+  </div>
+
+
+
+
+              
+        
+                     
+        </div> 
+        </div>
+
+        
+        <div class="d-flex justify-content-between tm-text-gray">
+          <span class="tm-text-gray-light">Oral Medicine and Radiology</span>
+          <span></span>
+        </div>
+        </div>
+
+
+        <!--Omr end here -->
+
+        <!--Omfs end here -->
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+          <figure class="effect-ming tm-video-item Depradius">
+              <img src="img/img-04.jpg" alt="Image" class="img-fluid">
+              <figcaption class="d-flex align-items-center justify-content-center">
+                <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#omfs">
+                  Register
+                </button></h2>
+              </figcaption>                    
+          </figure>
+          <div class="modal fade" id="omfs" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Oral & Maxillofacial Surgery</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  
+
+ 
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#omfspur">
+Purchase and Intenting 
+</button>
+                </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="omfspur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<a href="https://docs.google.com/spreadsheets/d/1Eq0Cj8tWCpZO8d6GWgPWwaEm1VJS2-yIQrLJKFyrjS4/edit?usp=sharing"  target="_blank">
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+For Dental Purchase Listing 
+</button></a><br><br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#omfsoth">
+For Stationery Purchase Listing
+</button>
+<!-- Modal -->
+<div class="modal fade" id="omfsoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBQgDicOq2JtDnGHYdQh921q_p08sqXVgFy5tTQFEwWOCKsw/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+<div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+          
+    
+                 
+    </div> 
+    </div>
+
+    
+    <div class="d-flex justify-content-between tm-text-gray">
+      <span class="tm-text-gray-light">Oral & Maxillofacial Surgery</span>
+      <span></span>
+    </div>
+    </div>
+
+
+
+
+
+        <!--Omfs end here -->
+
+        <!--Prostho start here -->
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+          <figure class="effect-ming tm-video-item Depradius">
+              <img src="img/img-05.jpg" alt="Image" class="img-fluid">
+              <figcaption class="d-flex align-items-center justify-content-center">
+                <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#prostho">
+                  Register
+                </button></h2>
+              </figcaption>                    
+          </figure>
+          <div class="modal fade" id="prostho" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Prosthodontist</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  
+
+ 
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#prosthopur">
+Purchase and Intenting 
+</button>
+                </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="prosthopur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<a href="https://docs.google.com/spreadsheets/d/1Eq0Cj8tWCpZO8d6GWgPWwaEm1VJS2-yIQrLJKFyrjS4/edit?usp=sharing"  target="_blank">
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+For Dental Purchase Listing 
+</button></a><br><br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#prosthooth">
+For Stationery Purchase Listing
+</button>
+<!-- Modal -->
+<div class="modal fade" id="prosthooth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQhpz3kKpg9odti1XpxFohgRsYOsaQnbrcEELWVd8YrvwpuQ/viewform?embedded=true"  width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+<div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+          
+    
+                 
+    </div> 
+    </div>
+
+    
+    <div class="d-flex justify-content-between tm-text-gray">
+      <span class="tm-text-gray-light">Prosthodontics</span>
+      <span></span>
+    </div>
+    </div>
+
+
+
+
+        <!--Prostho  end here -->
+
+
+
+
+        <!--phd start here -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+          <figure class="effect-ming tm-video-item Depradius">
+              <img src="img/img-06.jpg" alt="Image" class="img-fluid">
+              <figcaption class="d-flex align-items-center justify-content-center">
+                <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#phd">
+                  Register
+                </button></h2>
+              </figcaption>                    
+          </figure>
+          <div class="modal fade" id="phd" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Public Health Dentistry</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  
+
+ 
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#phdpur">
+Purchase and Intenting 
+</button>
+                </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="phdpur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<a href="https://docs.google.com/spreadsheets/d/1Eq0Cj8tWCpZO8d6GWgPWwaEm1VJS2-yIQrLJKFyrjS4/edit?usp=sharing"  target="_blank">
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+For Dental Purchase Listing 
+</button></a><br><br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#phdoth">
+For Stationery Purchase Listing
+</button>
+<!-- Modal -->
+<div class="modal fade" id="phdoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1xgZejo3XB9BVsgABBNnZ8ta4qjw45ETirlBWiu2SU9miHQ/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+<div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+          
+    
+                 
+    </div> 
+    </div>
+
+    
+    <div class="d-flex justify-content-between tm-text-gray">
+      <span class="tm-text-gray-light">Public Health Dentistry</span>
+      <span></span>
+    </div>
+    </div>
+
+
+
+        <!--phd  end here -->
+
+
+
+      <!-- COnserve start here-->
+
+      <!--conserve start here -->
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+        <figure class="effect-ming tm-video-item Depradius">
+            <img src="img/img-01.jpg" alt="Image" class="img-fluid">
+            <figcaption class="d-flex align-items-center justify-content-center">
+              <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#conserve">
+                Register
+              </button></h2>
+            </figcaption>                    
+        </figure>
+        <div class="modal fade" id="conserve" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Conservative & Endodontics</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#conservepur">
+Purchase and Intenting 
+</button>
+              </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="conservepur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<a href="https://docs.google.com/spreadsheets/d/1Eq0Cj8tWCpZO8d6GWgPWwaEm1VJS2-yIQrLJKFyrjS4/edit?usp=sharing"  target="_blank">
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+For Dental Purchase Listing 
+</button></a><br><br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#conserveoth">
+For Stationery Purchase Listing
+</button>
+<!-- Modal -->
+<div class="modal fade" id="conserveoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfv0rKcik3arIRkIbwGTm7qIrom60OFA7HxSUFJO-Yyo5t8bw/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+<div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+        
+  
+               
+  </div> 
+  </div>
+
+  
+  <div class="d-flex justify-content-between tm-text-gray">
+    <span class="tm-text-gray-light">Conservative & Endodontics</span>
+    <span></span>
+  </div>
+  </div>
+
+
+
+      <!--conserve  end here -->
+
+
+            <!-- orthodo start here-->
+
+      <!--orthodo start here -->
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+        <figure class="effect-ming tm-video-item Depradius">
+            <img src="img/img-02.jpg" alt="Image" class="img-fluid">
+            <figcaption class="d-flex align-items-center justify-content-center">
+              <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orthodo">
+                Register
+              </button></h2>
+            </figcaption>                    
+        </figure>
+        <div class="modal fade" id="orthodo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Orthodontics</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orthodopur">
+Purchase and Intenting 
+</button>
+              </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="orthodopur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<a href="https://docs.google.com/spreadsheets/d/1Eq0Cj8tWCpZO8d6GWgPWwaEm1VJS2-yIQrLJKFyrjS4/edit?usp=sharing"  target="_blank">
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+For Dental Purchase Listing 
+</button></a><br><br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orthodooth">
+For Stationery Purchase Listing
+</button>
+<!-- Modal -->
+<div class="modal fade" id="orthodooth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerCQG9xa2RLVf48GKoyrWT0vLddB2ul7rY3b4pWyCMpAiY7g/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+<div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+        
+  
+               
+  </div> 
+  </div>
+
+  
+  <div class="d-flex justify-content-between tm-text-gray">
+    <span class="tm-text-gray-light">Orthodontics</span>
+    <span></span>
+  </div>
+  </div>
+
+
+
+      <!--orthodo  end here -->
+
+
+      
+
+      <!--pedo start here -->
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+        <figure class="effect-ming tm-video-item Depradius">
+            <img src="img/img-07.jpg" alt="Image" class="img-fluid">
+            <figcaption class="d-flex align-items-center justify-content-center">
+              <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pedo">
+                Register
+              </button></h2>
+            </figcaption>                    
+        </figure>
+        <div class="modal fade" id="pedo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">paedodontics</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+
+
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pedopur">
+Purchase and Intenting 
+</button>
+              </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="pedopur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<a href="https://docs.google.com/spreadsheets/d/1Eq0Cj8tWCpZO8d6GWgPWwaEm1VJS2-yIQrLJKFyrjS4/edit?usp=sharing"  target="_blank">
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+For Dental Purchase Listing 
+</button></a><br><br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pedooth">
+For Stationery Purchase Listing
+</button>
+<!-- Modal -->
+<div class="modal fade" id="pedooth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfo1AM054WEvYIZ2b5DbpFZg23gDBf_nMD1ricCWvhLtJ9aA/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+<div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+        
+  
+               
+  </div> 
+  </div>
+
+  
+  <div class="d-flex justify-content-between tm-text-gray">
+    <span class="tm-text-gray-light">paedodontics</span>
+    <span></span>
+  </div>
+  </div>
+
+
+
+      <!--pedo  end here -->
+
+
+              
+
+      <!--perio start here -->
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+        <figure class="effect-ming tm-video-item Depradius">
+            <img src="img/img-08.jpg" alt="Image" class="img-fluid">
+            <figcaption class="d-flex align-items-center justify-content-center">
+              <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#perio">
+                Register
+              </button></h2>
+            </figcaption>                    
+        </figure>
+        <div class="modal fade" id="perio" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Periontics</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#periopur">
+Purchase and Intenting 
+</button>
+              </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="periopur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<a href="https://docs.google.com/spreadsheets/d/1Eq0Cj8tWCpZO8d6GWgPWwaEm1VJS2-yIQrLJKFyrjS4/edit?usp=sharing"  target="_blank">
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+For Dental Purchase Listing 
+</button></a><br><br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#periooth">
+For Stationery Purchase Listing
+</button>
+<!-- Modal -->
+<div class="modal fade" id="periooth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSec5zUV1WSsC6gkNfl5IR6Yz8tNelGEnCCZkpiInIpPNvSwVg/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+<div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+        
+  
+               
+  </div> 
+  </div>
+
+  
+  <div class="d-flex justify-content-between tm-text-gray">
+    <span class="tm-text-gray-light">periontics</span>
+    <span></span>
+  </div>
+  </div>
+
+
+
+      <!--perio  end here -->
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+        <figure class="effect-ming tm-video-item Depradius">
+            <img src="img/ORAL pATH.jpg" alt="Image" class="img-fluid">
+            <figcaption class="d-flex align-items-center justify-content-center">
+              <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orals">
+                Register
+              </button></h2>
+            </figcaption>                    
+        </figure>
+        <div class="modal fade" id="orals" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Oral Pathology</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+      
+      
+      
+      
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#oralspur">
+      Purchase and Intenting 
+      </button>
+              </div></div></div></div>
+      <!-- Modal -->
+      <div class="modal fade" id="oralspur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      </button>
+      </div>
+      <div class="modal-body">
+      
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#oralsoth">
+      For Stationery Purchase Listing
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="oralsoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      </button>
+      </div>
+      <div class="modal-body">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdcOkc1C9hLbwYuKUjE6jtHCBkf203dQfDA44-ca8ZLNhw6wA/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+      <div class="btn btn-primary modal-footer">
+      <center>IT Department</center>
+      </div>
+      
+      </div>
+      <div></div>
+      
+      
+      <!--Double pop end here  here-->
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      
+      
+      
+        
+      
+               
+      </div> 
+      </div>
+      
+      
+      <div class="d-flex justify-content-between tm-text-gray">
+      <span class="tm-text-gray-light">Oral Pathology</span>
+      <span></span>
+      </div>
+      </div>
+      
+      
+      
+      <!--COffee shop  end here -->
+        
+
+
+       <!--basic start here -->
+       <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+        <figure class="effect-ming tm-video-item Depradius">
+            <img src="img/img-09.jpg" alt="Image" class="img-fluid">
+            <figcaption class="d-flex align-items-center justify-content-center">
+              <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basic">
+                Register
+              </button></h2>
+            </figcaption>                    
+        </figure>
+        <div class="modal fade" id="basic" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Basic Science</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicpur">
+Purchase and Intenting 
+</button>
+              </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="basicpur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicothd">
+    For Lab item Purchase Listing
+    </button></a><br><br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicoth">
+For Stationery Purchase Listing
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="basicothd" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+  </button>
+  </div>
+  <div class="modal-body">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezhQZHjB-qKU6Glr2VVq7Yw4IvOi_Eo1a7mJQT8tZP9qWwyQ/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+  <div class="btn btn-primary modal-footer">
+  <center>IT Department</center>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="basicoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfdCvV_nINwXWb74KuPDLsESDqyGTD9MrFqztjxLrFTByWddQ/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+<div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+        
+  
+               
+  </div> 
+  </div>
+
+  
+  <div class="d-flex justify-content-between tm-text-gray">
+    <span class="tm-text-gray-light">Basic Science</span>
+    <span></span>
+  </div>
+  </div>
+
+
+
+      <!--basic  end here -->
+
+             <!--hostel start here -->
+             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+              <figure class="effect-ming tm-video-item Depradius">
+                  <img src="img/img-10.jpg" alt="Image" class="img-fluid">
+                  <figcaption class="d-flex align-items-center justify-content-center">
+                    <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hostel">
+                      Register
+                    </button></h2>
+                  </figcaption>                    
+              </figure>
+              <div class="modal fade" id="hostel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Hostel</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      
+      
+      
+    
+      
+      
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hostelpur">
+      Purchase and Intenting 
+      </button>
+                    </div></div></div></div>
+      <!-- Modal -->
+      <div class="modal fade" id="hostelpur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      </button>
+      </div>
+      <div class="modal-body">
+      
+      
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hosteloth">
+      For Stationery Purchase Listing
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="hosteloth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+      </button>
+      </div>
+      <div class="modal-body">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd00xNplxFWEUMQnRljo3v3LiB_LB29_hKfsiRZxc0SpDx6Vg/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+      <div class="btn btn-primary modal-footer">
+      <center>IT Department</center>
+      </div>
+      
+      </div>
+      <div></div>
+      
+      
+      <!--Double pop end here  here-->
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      
+      
+      
+              
+        
+                     
+        </div> 
+        </div>
+      
+        
+        <div class="d-flex justify-content-between tm-text-gray">
+          <span class="tm-text-gray-light">Hostel</span>
+          <span></span>
+        </div>
+        </div>
+      
+      
+      
+            <!--hostel  end here -->
+
+
+                   <!--admin start here -->
+       <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+        <figure class="effect-ming tm-video-item Depradius">
+            <img src="img/img-11.jpg" alt="Image" class="img-fluid">
+            <figcaption class="d-flex align-items-center justify-content-center">
+              <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#admin">
+                Register
+              </button></h2>
+            </figcaption>                    
+        </figure>
+        <div class="modal fade" id="admin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Administration</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+
+
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#adminpur">
+Purchase and Intenting 
+</button>
+              </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="adminpur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#adminoth">
+For Stationery Purchase Listing
+</button>
+<!-- Modal -->
+<div class="modal fade" id="adminoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfr4RKlYkQX0Wxa5WEhraLK1I1eEwuWXcQ0ppAHvnLwFs7AFw/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+<div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+        
+  
+               
+  </div> 
+  </div>
+
+  
+  <div class="d-flex justify-content-between tm-text-gray">
+    <span class="tm-text-gray-light">Administration</span>
+    <span></span>
+  </div>
+  </div>
+
+
+
+      <!--admin  end here -->
+
+                         <!--princi start here -->
+                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+                          <figure class="effect-ming tm-video-item Depradius">
+                              <img src="img/img-12.jpg" alt="Image" class="img-fluid">
+                              <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#princi">
+                                  Register
+                                </button></h2>
+                              </figcaption>                    
+                          </figure>
+                          <div class="modal fade" id="princi" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Principal Office</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  
+                  
+                  
+                  
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#principur">
+                  Purchase and Intenting 
+                  </button>
+                                </div></div></div></div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="principur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                  
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#princioth">
+                  For Stationery Purchase Listing
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="princioth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfq0OYSiM7NvGOuqY44ED4m-wrowbUHxf6zdi-jYfaJfb64yg/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+                  </div>
+                  <div class="btn btn-primary modal-footer">
+                  <center>IT Department</center>
+                  </div>
+                  
+                  </div>
+                  <div></div>
+                  
+                  
+                  <!--Double pop end here  here-->
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  
+                  
+                  
+                  
+                          
+                    
+                                 
+                    </div> 
+                    </div>
+                  
+                    
+                    <div class="d-flex justify-content-between tm-text-gray">
+                      <span class="tm-text-gray-light">Principal Office</span>
+                      <span></span>
+                    </div>
+                    </div>
+                  
+                  
+                  
+                        <!--princi  end here -->
+
+
+                        <!--Coffee start here -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+                          <figure class="effect-ming tm-video-item Depradius">
+                              <img src="img/coffee.jpg" alt="Image" class="img-fluid">
+                              <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projects">
+                                  Register
+                                </button></h2>
+                              </figcaption>                    
+                          </figure>
+                          <div class="modal fade" id="projects" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Coffee Lab</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  
+                  
+                  
+                  
+                  
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projectspur">
+                  Purchase and Intenting 
+                  </button>
+                                </div></div></div></div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="projectspur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                  
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projectsoth">
+                  For Stationery Purchase Listing
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="projectsoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc7ubQJAqBnM21CEX0yOMRkJNQoz6QSF4yjQmlNe9Z56zkyKQ/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+                  </div>
+                  <div class="btn btn-primary modal-footer">
+                  <center>IT Department</center>
+                  </div>
+                  
+                  </div>
+                  <div></div>
+                  
+                  
+                  <!--Double pop end here  here-->
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  
+                  
+                  
+                  
+                          
+                    
+                                 
+                    </div> 
+                    </div>
+                  
+                    
+                    <div class="d-flex justify-content-between tm-text-gray">
+                      <span class="tm-text-gray-light">Coffee Lab</span>
+                      <span></span>
+                    </div>
+                    </div>
+                  
+                  
+                  
+                        <!--COffee shop  end here -->
+
+                        <!--projects start here -->
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+                          <figure class="effect-ming tm-video-item Depradius">
+                              <img src="img/img-13.jpg" alt="Image" class="img-fluid">
+                              <figcaption class="d-flex align-items-center justify-content-center">
+                                <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projects">
+                                  Register
+                                </button></h2>
+                              </figcaption>                    
+                          </figure>
+                          <div class="modal fade" id="projects" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Projects</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  
+                 
+                  
+                  
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projectspur">
+                  Purchase and Intenting 
+                  </button>
+                                </div></div></div></div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="projectspur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                  
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#projectsoth">
+                  For Stationery Purchase Listing
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="projectsoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScE4fKAVhSz3z7jc4d1eEjbvbyRl4yOVrBOBB8cjbLu3ScxtA/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+                  </div>
+                  <div class="btn btn-primary modal-footer">
+                  <center>IT Department</center>
+                  </div>
+                  
+                  </div>
+                  <div></div>
+                  
+                  
+                  <!--Double pop end here  here-->
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  
+                  
+                  
+                  
+                          
+                    
+                                 
+                    </div> 
+                    </div>
+                  
+                    
+                    <div class="d-flex justify-content-between tm-text-gray">
+                      <span class="tm-text-gray-light">Projects</span>
+                      <span></span>
+                    </div>
+                    </div>
+                  
+                  
+                  
+                        <!--projects  end here -->
+
+
+                                                <!--store start here -->
+                                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+                                                  <figure class="effect-ming tm-video-item Depradius">
+                                                      <img src="img/img-14.jpg" alt="Image" class="img-fluid">
+                                                      <figcaption class="d-flex align-items-center justify-content-center">
+                                                        <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#store">
+                                                          Register
+                                                        </button></h2>
+                                                      </figcaption>                    
+                                                  </figure>
+                                                  <div class="modal fade" id="store" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                                      <div class="modal-content">
+                                                        <div class="modal-header">
+                                                          <h5 class="modal-title" id="exampleModalLongTitle">store</h5>
+                                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                          </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                          
+                                         
+                                          
+                                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#storepur">
+                                          Purchase and Intenting 
+                                          </button>
+                                                        </div></div></div></div>
+                                          <!-- Modal -->
+                                          <div class="modal fade" id="storepur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                          <div class="modal-content">
+                                          <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                          </button>
+                                          </div>
+                                          <div class="modal-body">
+                                          
+                                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#storeoth">
+                                          For Stationery Purchase Listing
+                                          </button>
+                                          <!-- Modal -->
+                                          <div class="modal fade" id="storeoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                          <div class="modal-content">
+                                          <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                          </button>
+                                          </div>
+                                          <div class="modal-body">
+                                          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdXGUBIGacPx_J0eg-LkrK3GGbiaTXuB2WuIK6gk2WQRmmdEg/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+                                          </div>
+                                          <div class="btn btn-primary modal-footer">
+                                          <center>IT Department</center>
+                                          </div>
+                                          
+                                          </div>
+                                          <div></div>
+                                          
+                                          
+                                          <!--Double pop end here  here-->
+                                          </div>
+                                          </div>
+                                          </div>
+                                          </div>
+                                          
+                                          
+                                          
+                                          
+                                                  
+                                            
+                                                         
+                                            </div> 
+                                            </div>
+                                          
+                                            
+                                            <div class="d-flex justify-content-between tm-text-gray">
+                                              <span class="tm-text-gray-light">store</span>
+                                              <span></span>
+                                            </div>
+                                            </div>
+                                          
+                                          
+                                          
+                                                <!--store  end here -->
+                                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius"></div>
+
+
+         <!--canteen start here -->
+         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+          <figure class="effect-ming tm-video-item Depradius">
+              <img src="img/can.jpg" alt="Image" class="img-fluid">
+              <figcaption class="d-flex align-items-center justify-content-center">
+                <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#canteen">
+                  Register
+                </button></h2>
+              </figcaption>                    
+          </figure>
+          <div class="modal fade" id="canteen" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">canteen</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  
+  
+ 
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#canteenpur">
+  Purchase and Intenting 
+  </button>
+                </div></div></div></div>
+  <!-- Modal -->
+  <div class="modal fade" id="canteenpur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+  </button>
+  </div>
+  <div class="modal-body">
+  
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#canteenoth">
+  For Stationery Purchase Listing
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="canteenoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+  </button>
+  </div>
+  <div class="modal-body">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScPi4aMIKVi-qtwzNKdWvxl8zK0l1ihCg_LF44ettFrN2aNcQ/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+  <div class="btn btn-primary modal-footer">
+  <center>IT Department</center>
+  </div>
+  
+  </div>
+  <div></div>
+  
+  
+  <!--Double pop end here  here-->
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  
+          
+    
+                 
+    </div> 
+    </div>
+  
+    
+    <div class="d-flex justify-content-between tm-text-gray">
+      <span class="tm-text-gray-light">canteen</span>
+      <span></span>
+    </div>
+    </div>
+  
+  
+  
+        <!--canteen  end here -->
+
+
+        
+
+<!--Coffee start here -->
+                      
+
+<!--Coffee start here -->
+<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 Depradius">
+  <figure class="effect-ming tm-video-item Depradius">
+      <img src="img/lib.jpg" alt="Image" class="img-fluid">
+      <figcaption class="d-flex align-items-center justify-content-center">
+        <h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#libs">
+          Register
+        </button></h2>
+      </figcaption>                    
+  </figure>
+  <div class="modal fade" id="libs" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Library</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+
+
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#libspur">
+Purchase and Intenting 
+</button>
+        </div></div></div></div>
+<!-- Modal -->
+<div class="modal fade" id="libspur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Please enter <br>Purchase Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#libsoth">
+For Stationery Purchase Listing
+</button>
+<!-- Modal -->
+<div class="modal fade" id="libsoth" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Register Here</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1IU31VQKsBR5HOlQxZx2Yw0V8Vk7JtXL3OPTzaWIMmJ1wiw/viewform?embedded=true" width="100%" height="500" frameborder="1px" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+<div class="btn btn-primary modal-footer">
+<center>IT Department</center>
+</div>
+
+</div>
+<div></div>
+
+
+<!--Double pop end here  here-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+  
+
+         
+</div> 
+</div>
+
+
+<div class="d-flex justify-content-between tm-text-gray">
+<span class="tm-text-gray-light">Library</span>
+<span></span>
+</div>
+</div>
+
+
+
+<!--COffee shop  end here -->
+
+
+
+
+
+
+
+
+
+
+        <div class="row tm-mb-90">
+            <Center>
+                <h3 style="color: aliceblue;">Hot Lines</h3>
+                <p><a href="tel:+917034555526"><i class="fa fa-phone" aria-hidden="true"></i><b> Maintenance : +91 7034 5555 26<br>
+                    <a href="tel:+917034555512"><i class="fa fa-phone" aria-hidden="true"> System admin: +91 7034 5555 12 </i></a><br>
+                    <a href="tel:+918086500023"><i class="fa fa-phone" aria-hidden="true"> IT Engineer: +91 8086 5000 23 </i></a>
+                    </p>
+                </b>
+            </Center>
+            <!--
+            <div class="col-12 d-flex justify-content-between align-items-center tm-paging-col">
+                <a href="javascript:void(0);" class="btn btn-primary tm-btn-prev mb-2 disabled">Previous</a>
+                <div class="tm-paging d-flex">
+                    <a href="javascript:void(0);" class="active tm-paging-link">1</a>
+                    <a href="javascript:void(0);" class="tm-paging-link">2</a>
+                    <a href="javascript:void(0);" class="tm-paging-link">3</a>
+                    <a href="javascript:void(0);" class="tm-paging-link">4</a>
+                </div>
+                <a href="javascript:void(0);" class="btn btn-primary tm-btn-next">Next Page</a>
+                -->
+            </div>            
+        </div>
+    </div> 
+    <!-- container-fluid, tm-container-content -->
+
+    <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+        <div class="container-fluid tm-container-small">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">About Portal</h3>
+                    <p>This is <a rel="sponsored" href="https://mdcrc.edu.in/">MDC</a> Complaints Register Portal <br>  Initiated by IT department and Maintenance Committee</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">Support Team</h3>
+                    <ul class="tm-footer-links pl-0">
+                        <li><a href="tel:+917034555526"><i class="fa fa-phone" aria-hidden="true"></i> Mr. Sainul abid</a></li>
+                        <li><a href="tel:+917034555512"><i class="fa fa-phone" aria-hidden="true"></i> Mr. Nidheesh Vk</a></li>
+                        <li><a href="tel:+918086500023"><i class="fa fa-phone" aria-hidden="true"></i> Mr. Jaseem Tp</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                    <ul class="tm-social-links d-flex justify-content-end pl-0 mb-5">
+                        <li class="mb-2"><a href="https://www.facebook.com/malabarAcademicCity/"><i class="fab fa-facebook"></i></a></li>
+                        <li class="mb-2"><a href="https://www.instagram.com/malabar_dental_college/"><i class="fab fa-instagram"></i></a></li>
+                        <li class="mb-2"><a href="https://www.linkedin.com/company/malabar-academic-city"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                    <a href="mailto:info@macity.edu.in" class="tm-text-gray text-right d-block mb-2">For More</a>
+                    <a href="mailto:info@macity.edu.in" class="tm-text-gray text-right d-block">Info@macity.edu.in</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
+                    Copyright 2020 . All rights reserved.<br> <b> <a href="https://mdcrc.edu.in">Malabar Dental College and Research Center</a></b>
+                </div>
+                <div class="col-lg-4 col-md-5 col-12 px-5 text-right">Designed by<br>
+                    <a href="https://mohammedjaseem.me"  rel="sponsored" target="_parent">  <b> IT Engineer </b></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
+    </script>
+    <script>
+    // Inline popups
+    $('#inline-popups').magnificPopup({
+      delegate: 'a',
+      removalDelay: 500, //delay removal by X to allow out-animation
+      callbacks: {
+        beforeOpen: function() {
+           this.st.mainClass = this.st.el.attr('data-effect');
+        }
+      },
+      midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+    });
+    
+    
+    // Image popups
+    $('#image-popups').magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      removalDelay: 500, //delay removal by X to allow out-animation
+      callbacks: {
+        beforeOpen: function() {
+          // just a hack that adds mfp-anim class to markup 
+           this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+           this.st.mainClass = this.st.el.attr('data-effect');
+        }
+      },
+      closeOnContentClick: true,
+      midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+    });
+    
+    
+    // Hinge effect popup
+    $('a.hinge').magnificPopup({
+      mainClass: 'mfp-with-fade',
+      removalDelay: 1000, //delay removal by X to allow out-animation
+      callbacks: {
+        beforeClose: function() {
+            this.content.addClass('hinge');
+        }, 
+        close: function() {
+            this.content.removeClass('hinge'); 
+        }
+      },
+      midClick: true
+    });
+</script>
+<script>
+    $('#btn').click(function() {
+                   $('#modelWindow').modal('show');
+                });
+</script>
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+
+</body>
+</html>
