@@ -1,6 +1,6 @@
 /**
 * Template Name: PhotoFolio - v1.2.0
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+* 
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
