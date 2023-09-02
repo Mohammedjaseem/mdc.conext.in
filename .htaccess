@@ -1,0 +1,9 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mdc\.conext\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mdc\.conext\.in$
+RewriteRule ^ComplaintPortal\/index\.html$ "https\:\/\/app\.conext\.in\/Maintenance\/mdcRegister\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^mdc\.conext\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mdc\.conext\.in$
+RewriteRule ^ComplaintPortal\/?$ "https\:\/\/app\.conext\.in\/Maintenance\/mdcRegister\/" [R=301,L]
+
